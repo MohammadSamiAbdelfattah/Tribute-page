@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700&display=swap');
+
+/* Main Roles Started */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Roles Ended */
+
+/* Main Started*/
+
+#main {
+  font-family: 'Roboto Mono', monospace;
+  background: #DDD;
+  margin: 50px;
+  border-radius: 3em;
+}
+
+/* Main Ended */
+
+/* Head Started */
+
+#title{
+  font-size: 3.2em;
+  text-align: center;
+  padding: 40px 0 15px;
+}
+
+#img-div{
+  padding: 20px 30px 5px;
+  margin: 0 auto;
+}
+
+#image{
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 2em;
+}
+
+#head p{
+  font-size: 15px;
+  text-align: center;
+}
+
+#img-caption{
+  font-size: 13px;
+  font-style: italic;
+  width: 80%;
+  margin: 15px auto;
+}
+
+/* Head Ended */
+
+/* Content Started */
+
+#content h3{
+  margin: 40px 20px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+#tribute-info{
+  width: 45%;
+  margin: 30px auto 0;
+  text-align: justify;
+}
+
+#tribute-info li{
+  line-height: 1.8;
+}
+
+/* Content Ended */
+
+/* Quote Started */
+
+#quote {
+  width: 48%;
+  margin: 40px auto;
+  font-size: 14.5px;
+  font-style: italic;
+  text-align: justify;
+}
+
+#quote p{
+  margin: 15px 0; 
+}
+
+/* Quote Ended */
+
+/* Information Started */
+
+ #information{
+  padding: 10px 0 50px ;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17.5px;
+}
+
+#information a{
+  color: #3060ff;
+} 
+
+/* Information Ended*/
+
+
+/* Media Query Started */
+
+@media (max-width: 1180px) {
+  #main{
+    margin: 20px; 
+  }
+  
+  #img-caption{
+    width: 90%;
+  }
+
+  #tribute-info{
+    text-align: left;
+  }   
+
+  #quote{
+    text-align: left;
+  }  
+
+  #information{
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  #title{
+    font-size: 2.5em;
+  }
+
+  #content h3{
+    font-size: 18px;
+  }
+
+  #tribute-info{
+    width: 60%;
+  }
+
+  #quote {
+    width: 66%;}
+
+} 
+
+@media (max-width: 600px) {
+  #title{
+    font-size: 2em;
+  }
+
+  #head p{
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 550px) {
+  #content h3 {
+    font-size: 15px;
+  }
+
+  #tribute-info{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 450px) {
+  #title{
+    font-size: 1.7em;
+  }
+}
+
+@media (max-width: 400px) {
+  #title{
+    font-size: 1.2em;
+  }
+
+  #head p{
+    font-size: 10px;
+  } 
+
+  #img-caption{
+    font-size: 10px;
+  }
+  #content h3{
+    margin: 40px 10px;
+    font-size: 12px;
+  }
+
+  #tribute-info,
+  #quote{
+    font-size: 12px;
+  }
+
+  #information{
+    font-size: 14px;
+  }
+}
+
+/* Media Query Ended */
